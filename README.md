@@ -15,7 +15,7 @@ This project demonstrates how to set up Continuous Integration and Continuous De
 1. Clone the repository:
 
    ```shell
-   git clone gh repo clone bikrantsahoo/CircleCi-python
+   gh repo clone bikrantsahoo/CircleCi-python  #clone the repo
    cd CircleCi-python
 
 python3 -m venv venv
