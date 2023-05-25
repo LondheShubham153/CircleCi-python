@@ -1,6 +1,6 @@
 # Project Name
 
-[![CircleCI](https://circleci.com/gh/your-username/your-repo.svg?style=svg)](https://circleci.com/gh/your-username/your-repo)
+[![CircleCI] (https://circleci.com/gh/your-username/your-repo.svg?style=svg)](https://github.com/bikrantsahoo/CircleCi-python)
 
 This project demonstrates how to set up Continuous Integration and Continuous Deployment (CI/CD) using CircleCI for a Python project.
 
