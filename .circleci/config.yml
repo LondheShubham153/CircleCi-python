@@ -13,7 +13,12 @@ jobs:
     steps:
       - checkout
       - run: python tests.py
-  deploy:
+  qa:
+    docker:
+      - image: cimg/python:3.11
+    steps:
+      - run: echo "Deploying to qa server"
+  prod:
     docker:
       - image: cimg/python:3.11
     steps:
@@ -26,9 +31,12 @@ workflows:
       - test:
           requires:
             - build 
-      - deploy:
+      - qa:
           requires:
             - test
+      - prod:
+          requires:
+            - qa
           filters:
             branches:
               only: main
