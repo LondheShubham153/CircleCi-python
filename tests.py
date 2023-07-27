@@ -4,9 +4,9 @@ from main import to_upper
 
 class MyTestCase(unittest.TestCase):
     def test_to_upper(self):
-        name = "Shubham"
+        name = "Kaustubh"
         upper_name = to_upper(name)
-        self.assertEqual(upper_name, "SHUBHAMM")
+        self.assertEqual(upper_name, "KAUSTUBH")
 
 
 if __name__ == '__main__':
